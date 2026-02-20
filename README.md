@@ -9,7 +9,7 @@ Ce projet illustre les bases de l'automatisation du développement avec **Node.j
 - Pipeline CI GitHub Actions pour :
   - Installer les dépendances
   - Construire l'image Docker
-  - (Possibilité d'ajouter les tests à l'avenir)
+
 
 ## Installation
 
