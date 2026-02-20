@@ -1,11 +1,10 @@
-﻿const express = require('express');
-const app = express();
-const port = 3000;
+﻿const sum = require('./sum');
 
-app.get('/', (req, res) => {
-    res.send('Hello, TP DevOps !');
-});
+function multiply(a, b) {
+  return a * b;
+}
 
-app.listen(port, () => {
-    console.log('Serveur lancé sur http://localhost:' + port);
-});
+console.log('1 + 2 =', sum(1, 2));
+console.log('3 * 4 =', multiply(3, 4));
+
+module.exports = { sum, multiply };
