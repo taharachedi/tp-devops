@@ -1,0 +1,24 @@
+{
+  "name": "tp-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taharachedi/tp-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/taharachedi/tp-devops/issues"
+  },
+  "homepage": "https://github.com/taharachedi/tp-devops#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
