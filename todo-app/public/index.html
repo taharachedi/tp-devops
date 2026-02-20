@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Todo App Moderne</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mes Tâches</h1>
+      <p class="subtitle">Organisez votre journée avec style</p>
+    </header>
+
+    <div class="add-task-container">
+      <div class="input-group">
+        <input type="text" id="new-task" placeholder="Quelle est la prochaine étape ?" />
+      </div>
+      <div class="options-group">
+        <select id="priority">
+          <option value="low">Priorité Basse</option>
+          <option value="medium" selected>Priorité Moyenne</option>
+          <option value="high">Priorité Haute</option>
+        </select>
+        <input type="date" id="due-date" />
+        <button id="add-btn">Ajouter</button>
+      </div>
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Toutes</button>
+      <button class="filter-btn" data-filter="completed">Terminées</button>
+      <button class="filter-btn" data-filter="pending">À faire</button>
+    </div>
+
+    <ul id="tasks-list">
+      <li>
+        <div class="task-info">
+          <span class="task-title">Finaliser le design CSS</span>
+          <span class="task-meta">📅 25 Oct. • <span class="priority-tag high">Haute</span></span>
+        </div>
+        <div class="task-actions">
+          <button class="complete-btn">✔</button>
+          <button class="delete-btn">🗑</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
