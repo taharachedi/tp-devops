@@ -154,14 +154,11 @@ Le workflow se déclenche automatiquement à chaque push sur la branche main.
 
 ---
 
-## 🔮 Améliorations Futures
+## Difficultés rencontrées
 
-- Intégration d’une base de données (MongoDB ou PostgreSQL)
-- Authentification utilisateur
-- Déploiement cloud (Render, Heroku, Docker Hub)
-- Ajout ESLint pour qualité du code
-- Notifications pour les dates limites
-
+- Problème de synchronisation Git (rebase)
+- Conflits de ligne LF / CRLF sous Windows
+- Configuration initiale du pipeline CI
 ---
 
 ## 📄 Licence
